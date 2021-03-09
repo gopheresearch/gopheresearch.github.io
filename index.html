@@ -1,23 +1,20 @@
 <html>
-   <head>
-      <title> GopheResearch Application </title>
-      <link rel="icon" href="https://i.imgur.com/3hDRo8a.png"/>
-   </head>
-   <body  style="margin:0px;padding:0px;overflow:hidden">
-      <iframe id = "formId" width = "100%" height="100%" frameborder="0" src="https://script.google.com/a/macros/umn.edu/s/AKfycbzRmOaAOObqa-Jy1rVJd1kpWa4r_xVUaSKWUKZEMxgnLBTHHEViyH7F/exec"> </iframe>
-      <script>
-         var loc = window.location.toString(),
-             student = loc.split('?')[1],
-             lab = loc.split('?')[2]
-               iframe = document.querySelector("#formId");
-               console.log("final")
-              console.log("STUDENT TEST1")
-               if(student != null) 
-               {
-                      iframe.src = iframe.src + '?filled=y&s=' + student + '&p=' + lab; 
- 
-         }
-         
-      </script> 
-   </body>
+	<head>
+		<title> GopheResearch Application </title>
+		<link rel="icon" href="https://i.imgur.com/3hDRo8a.png"/>
+	</head>
+	<body  style="margin:0px;padding:0px;overflow:hidden">
+		<iframe id = "formId" width = "100%" height="100%" frameborder="0" src="https://script.google.com/a/macros/umn.edu/s/AKfycbzRmOaAOObqa-Jy1rVJd1kpWa4r_xVUaSKWUKZEMxgnLBTHHEViyH7F/exec"> </iframe>
+		<script>
+			var loc = window.location.toString(),
+			student = loc.split('?')[1],
+			lab = loc.split('?')[2]
+			iframe = document.querySelector("#formId");
+			console.log("final")
+			if(student != null) 
+			{
+			iframe.src = iframe.src + '?filled=y&s=' + student + '&p=' + lab; 
+			}
+		</script> 
+	</body>
 </html>
