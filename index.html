@@ -9,9 +9,6 @@
 var loc = window.location.toString(),
     student = loc.split('?')[1],
     lab = loc.split('?')[2],
-    iframe = document.querySelector("#formId");
-       console.log("queryselgo")
-     console.log(iframe.src)
       //iframe.src = iframe.src + '?filled=y&s=' + student '&p=' + lab; 
          var tempSrc = 'iframe..src' + '?filled=y&s=' + student + '&p=' + lab; 
 
@@ -20,6 +17,17 @@ var loc = window.location.toString(),
 
 </script> 
       <iframe id = "formId" width = "100%" height="100%" frameborder="0" src="https://www.google.com/" />
+      
+      <script>
+    iframe = document.querySelector("#formId");
+  console.log("queryselgolater")
+     console.log(iframe.src)
+
+</script> 
+      
+      
+      
+      
   </body>
 </html>
 
