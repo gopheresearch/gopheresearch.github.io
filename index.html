@@ -6,19 +6,16 @@
 
    <body  style="margin:0px;padding:0px;overflow:hidden">
 
-      <iframe id = "formId" width = "100%" height="100%" frameborder="0" src="https://script.google.com/a/macros/umn.edu/s/AKfycbzRmOaAOObqa-Jy1rVJd1kpWa4r_xVUaSKWUKZEMxgnLBTHHEViyH7F/exec
-"> </iframe>
+      <iframe id = "formId" width = "100%" height="100%" frameborder="0" src="https://script.google.com/a/macros/umn.edu/s/AKfycbzRmOaAOObqa-Jy1rVJd1kpWa4r_xVUaSKWUKZEMxgnLBTHHEViyH7F/exec"> </iframe>
+     
       <script>
 var loc = window.location.toString(),
     student = loc.split('?')[1],
     lab = loc.split('?')[2]
       //iframe.src = iframe.src + '?filled=y&s=' + student '&p=' + lab; 
-         var tempSrc = 'iframe..src' + '?filled=y&s=' + student + '&p=' + lab; 
-
-   console.log("TEMPSRC")
-      console.log(tempSrc)
-    iframe = document.querySelector("#formId");
-  console.log("1script")
+        var tempSrc = 'iframe..src' + '?filled=y&s=' + student + '&p=' + lab; 
+      iframe = document.querySelector("#formId");
+      console.log("1scriptsrc")
      console.log(iframe.src)
 
 
