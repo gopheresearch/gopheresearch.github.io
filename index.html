@@ -14,8 +14,13 @@ var loc = window.location.toString(),
     lab = loc.split('?')[2]
       iframe = document.querySelector("#formId");
       console.log("final")
-     console.log("STUDENT")
-      console.log(student)
+     console.log("STUDENT TEST")
+      if(student ="") {
+  console.log(empty)
+}
+else {
+  console.log(student)
+}
         iframe.src = iframe.src + '?filled=y&s=' + student + '&p=' + lab; 
 
 
