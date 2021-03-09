@@ -15,14 +15,11 @@ var loc = window.location.toString(),
       iframe = document.querySelector("#formId");
       console.log("final")
      console.log("STUDENT TEST1")
-      if(student == null) {
-  console.log("if")
-}
-else {
-  console.log("else")
-}
-        iframe.src = iframe.src + '?filled=y&s=' + student + '&p=' + lab; 
+      if(student != null) {
+  console.log("if"){
+             iframe.src = iframe.src + '?filled=y&s=' + student + '&p=' + lab; 
 
+}
 
 </script> 
 
