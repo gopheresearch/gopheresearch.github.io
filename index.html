@@ -13,12 +13,13 @@
 		lastName = loc.split('?')[4]
 		major = loc.split('?')[5]
 		minor = loc.split('?')[6]
-			
+		college = loc.split('?')[7]
+		year = loc.split('?')[8]	
 		
 		
 		iframe = document.querySelector("#formId");
 		if(student != null && lab != null) {
-			iframe.src = iframe.src + '?filled=y&s=' + student + '&p=' + lab + '&firstName=' + firstName + '&lastName=' + lastName + '&major=' + major + '&minor=' + minor;
+			iframe.src = iframe.src + '?filled=y&s=' + student + '&p=' + lab + '&firstName=' + firstName + '&lastName=' + lastName + '&major=' + major + '&minor=' + minor  + '&year=' + year + '&college=' + college;
 		}
 	</script>
 </body>
